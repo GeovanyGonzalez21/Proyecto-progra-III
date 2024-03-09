@@ -4,6 +4,8 @@
 
 package com.mycompany.proyecto_arbolesbinarios;
 
+import Interfaces.Principal;
+
 /**
  *
  * @author geova
@@ -11,7 +13,10 @@ package com.mycompany.proyecto_arbolesbinarios;
 public class Proyecto_ArbolesBinarios {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Esto es un mensaje de prueba");
+        //Abrimos la ventana principal
+        Principal ventana=new Principal();
+        //Centramos la ventana
+        ventana.setLocationRelativeTo(null);
+        ventana.setVisible(true);
     }
 }
