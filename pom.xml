@@ -13,11 +13,22 @@
         </repository>
     </repositories>
     <dependencies>
-        <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>AbsoluteLayout</artifactId>
-            <version>SNAPSHOT</version>
-        </dependency>
+
+    <!-- Dependencia de JPA (Hibernate) -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.6.3.Final</version>
+    </dependency>
+    <!-- Dependencia de MySQL Connector/J -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.28</version>
+    </dependency>
+
+
+
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

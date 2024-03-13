@@ -1,8 +1,14 @@
-Interfaces\Principal$2.class
+com\mycompany\proyecto_arbolesbinarios\JPA\ArbolesJPAController.class
 Interfaces\ArbolesBinarios$1.class
 com\mycompany\proyecto_arbolesbinarios\Proyecto_ArbolesBinarios.class
-Interfaces\ArbolesBinarios$3.class
 Interfaces\Principal.class
+com\mycompany\proyecto_arbolesbinarios\JPA\exceptions\IllegalOrphanException.class
 Interfaces\ArbolesBinarios.class
 Interfaces\Principal$1.class
 Interfaces\ArbolesBinarios$2.class
+Interfaces\Principal$2.class
+com\mycompany\proyecto_arbolesbinarios\Logica\Arbol.class
+com\mycompany\proyecto_arbolesbinarios\JPA\exceptions\NonexistentEntityException.class
+com\mycompany\proyecto_arbolesbinarios\EntityClases\ArbolEC.class
+Interfaces\ArbolesBinarios$3.class
+com\mycompany\proyecto_arbolesbinarios\JPA\exceptions\PreexistingEntityException.class
