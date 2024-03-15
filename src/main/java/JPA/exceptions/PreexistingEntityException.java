@@ -1,4 +1,4 @@
-package com.mycompany.proyecto_arbolesbinarios.JPA.exceptions;
+package JPA.exceptions;
 
 public class PreexistingEntityException extends Exception {
     public PreexistingEntityException(String message, Throwable cause) {

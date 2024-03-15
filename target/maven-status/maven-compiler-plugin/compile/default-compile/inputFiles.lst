@@ -1,9 +1,8 @@
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\Interfaces\Principal.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\JPA\exceptions\PreexistingEntityException.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\JPA\exceptions\NonexistentEntityException.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\Proyecto_ArbolesBinarios.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\Interfaces\ArbolesBinarios.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\JPA\ArbolesJPAController.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\JPA\exceptions\IllegalOrphanException.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\Logica\Arbol.java
-C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_ArbolesBinarios\src\main\java\com\mycompany\proyecto_arbolesbinarios\EntityClases\ArbolEC.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\Interfaces\ArbolesBinarios.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\JPA\exceptions\PreexistingEntityException.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\Entityclases\Arbol.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\com\mycompany\proyecto_arbolesbinarios\Proyecto_ArbolesBinarios.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\Interfaces\Principal.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\JPA\ArbolJpaController.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\JPA\exceptions\IllegalOrphanException.java
+C:\Users\geova\OneDrive\Documents\NetBeansProjects\Proyecto_prograIII\src\main\java\JPA\exceptions\NonexistentEntityException.java

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.proyecto_arbolesbinarios.EntityClases;
+package Entityclases;
 
 import java.io.Serializable;
 import javax.persistence.Basic;
@@ -20,32 +20,32 @@ import javax.persistence.Table;
  * @author geova
  */
 @Entity
-@Table(name = "arbol", catalog = "arbolesbinarios", schema = "")
+@Table(name = "arbol", catalog = "proyectoprograiii", schema = "")
 @NamedQueries({
     @NamedQuery(name = "Arbol.findAll", query = "SELECT a FROM Arbol a")})
-public class ArbolEC implements Serializable {
+public class Arbol implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
-    @Column(name = "Id", nullable = false)
+    @Column(name = "id", nullable = false)
     private Integer id;
     @Basic(optional = false)
-    @Column(name = "Dato", nullable = false)
+    @Column(name = "dato", nullable = false)
     private int dato;
     @Basic(optional = false)
     @Column(name = "estado", nullable = false)
-    private short estado;
+    private int estado;
 
-    public ArbolEC() {
+    public Arbol() {
     }
 
-    public ArbolEC(Integer id) {
+    public Arbol(Integer id) {
         this.id = id;
     }
 
-    public ArbolEC(Integer id, int dato, short estado) {
+    public Arbol(Integer id, int dato, int estado) {
         this.id = id;
         this.dato = dato;
         this.estado = estado;
@@ -67,11 +67,11 @@ public class ArbolEC implements Serializable {
         this.dato = dato;
     }
 
-    public short getEstado() {
+    public int getEstado() {
         return estado;
     }
 
-    public void setEstado(short estado) {
+    public void setEstado(int estado) {
         this.estado = estado;
     }
 
@@ -85,10 +85,10 @@ public class ArbolEC implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
-        if (!(object instanceof ArbolEC)) {
+        if (!(object instanceof Arbol)) {
             return false;
         }
-        ArbolEC other = (ArbolEC) object;
+        Arbol other = (Arbol) object;
         if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
             return false;
         }
@@ -97,7 +97,7 @@ public class ArbolEC implements Serializable {
 
     @Override
     public String toString() {
-        return "com.mycompany.proyecto_arbolesbinarios.EntityClases.Arbol[ id=" + id + " ]";
+        return "Entityclases.Arbol[ id=" + id + " ]";
     }
     
 }

@@ -1,4 +1,4 @@
-package com.mycompany.proyecto_arbolesbinarios.JPA.exceptions;
+package JPA.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;
